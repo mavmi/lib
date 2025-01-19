@@ -11,6 +11,7 @@
 
     <modules>
         <module>logging</module>
+        <module>thread-scope</module>
     </modules>
 
     <properties>
@@ -25,6 +26,8 @@
         <spring.web.version>6.2.1</spring.web.version>
         <spring.data.version>3.4.1</spring.data.version>
         <spring.boot.version>3.4.1</spring.boot.version>
+        <spring.beans.version>6.2.2</spring.beans.version>
+        <spring.context.version>6.2.2</spring.context.version>
         <spring.security.version>6.4.2</spring.security.version>
         <spring.framwork.version>6.2.1</spring.framwork.version>
         <spring.cloud.context.version>4.2.0</spring.cloud.context.version>
