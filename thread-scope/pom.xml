@@ -11,6 +11,7 @@
     </parent>
 
     <artifactId>thread-scope</artifactId>
+    <version>${revision}</version>
 
     <dependencies>
         <dependency>

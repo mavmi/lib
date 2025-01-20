@@ -1,4 +1,4 @@
-package mavmi.lib.config;
+package mavmi.lib.logging.loggingDatabase.config;
 
 import jakarta.annotation.PostConstruct;
 import org.apache.logging.log4j.Level;
@@ -26,7 +26,7 @@ public class LoggerConfig {
         org.apache.logging.log4j.core.config.Configuration configuration = loggerContext.getConfiguration();
 
         FactoryMethodConnectionSource connectionSource = FactoryMethodConnectionSource.createConnectionSource(
-                "mavmi.lib.config.LoggerConfig",
+                "mavmi.lib.logging.loggingDatabase.config.LoggerConfig",
                 "getDataSource"
         );
 

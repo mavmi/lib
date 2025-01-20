@@ -6,16 +6,11 @@
 
     <parent>
         <groupId>mavmi.lib</groupId>
-        <artifactId>lib</artifactId>
+        <artifactId>logging</artifactId>
         <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>logging</artifactId>
+    <artifactId>logging-file</artifactId>
     <version>${revision}</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>logging-file</module>
-        <module>logging-database</module>
-    </modules>
 </project>
